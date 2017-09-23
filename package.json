@@ -9,7 +9,7 @@
     "testPreact": "if [ ! -f my-preact-app/package.json ]; then yarn run firstRunPreact; fi",
     "prestartPreact": "yarn run testPreact",
     "startPreact": "cd my-preact-app && yarn start",
-    "firstRunAngular": "node_modules/.bin/ng new my-angular-app",
+    "firstRunAngular": "ng new my-angular-app",
     "testAngular": "if [ ! -f my-angular-app/package.json ]; then node_modules/.bin/yarn run firstRunAngular; fi",
     "prestartAngular": "node_modules/.bin/yarn run testAngular",
     "startAngular": "cd my-angular-app && ../node_modules/.bin/ng serve",
@@ -20,7 +20,9 @@
   },
   "dependencies": {
     "@angular/cli": "^1.4.3",
+    "@angular/compiler": "^4.4.3",
     "@angular/compiler-cli": "^4.4.3",
+    "@angular/core": "^4.4.3",
     "create-react-app": "^1.4.0",
     "preact-cli": "^1.4.1",
     "yarn": "^1.0.2"
