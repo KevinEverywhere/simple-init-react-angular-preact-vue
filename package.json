@@ -12,19 +12,23 @@
     "firstRunAngular": "ng new my-angular-app",
     "testAngular": "if [ ! -f my-angular-app/package.json ]; then node_modules/.bin/yarn run firstRunAngular; fi",
     "prestartAngular": "node_modules/.bin/yarn run testAngular",
-    "startAngular": "cd my-angular-app && ../node_modules/.bin/ng serve",
+    "startAngular": "cd my-angular-app && node_modules/.bin/ng serve",
+    "firstRunVue": "node_modules/.bin/vue init webpack my-vue-app",
+    "testVue": "if [ ! -f my-vue-app/package.json ]; then yarn run firstRunVue; fi",
+    "prestartVue": "yarn run testVue",
+    "startVue": "cd my-vue-app && yarn start",
     "firstRunReact": "node_modules/.bin/create-react-app my-react-app",
     "testReact": "if [ ! -f my-react-app/package.json ]; then yarn run firstRunReact; fi",
     "prestartReact": "yarn run testReact",
     "startReact": "cd my-react-app && yarn start"
   },
   "dependencies": {
-    "@angular/cli": "^1.4.3",
-    "@angular/compiler": "^4.4.3",
-    "@angular/compiler-cli": "^4.4.3",
-    "@angular/core": "^4.4.3",
     "create-react-app": "^1.4.0",
     "preact-cli": "^1.4.1",
+    "vue-cli": "^2.8.2",
     "yarn": "^1.0.2"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.4.3"
   }
 }
