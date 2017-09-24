@@ -9,7 +9,7 @@
     "testPreact": "if [ ! -f my-preact-app/package.json ]; then yarn run firstRunPreact; fi",
     "prestartPreact": "yarn run testPreact",
     "startPreact": "cd my-preact-app && yarn start",
-    "namePkgReturn": "mv package.json replacement.package.json temp.package.json package.json",
+    "namePkgReturn": "mv package.json replacement.package.json && mv temp.package.json package.json",
     "namePkgTemp": "mv package.json temp.package.json && mv replacement.package.json package.json",
     "firstRunAngular": "npm run namePkgTemp && ng new my-angular-app && npm run namePkgReturn",
     "testAngular": "if [ ! -f my-angular-app/package.json ]; then npm run firstRunAngular; fi",
