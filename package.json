@@ -23,9 +23,9 @@
     "testReact": "if [ ! -f my-react-app/package.json ]; then yarn run firstRunReact; fi",
     "prestartReact": "yarn run testReact",
     "startReact": "cd my-react-app && yarn start",
-    "startAll": "parallelshell 'yarn run startReact' 'yarn run startPreact' 'yarn run startVue' 'yarn run startAngular'"
+    "startAll": "npm install && parallelshell 'yarn run startReact' 'yarn run startPreact' 'yarn run startVue' 'yarn run startAngular'"
   },
-  "peerDependencies": {
+  "dependencies": {
     "@angular/cli": "^1.4.3",
     "create-react-app": "^1.4.0",
     "json": "^9.0.6",
