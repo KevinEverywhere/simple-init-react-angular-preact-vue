@@ -1,10 +1,10 @@
 # simple-init-react-angular-preact-vue
 
-This project is an example of current framework cli-build processes work and appear side by side. Once the initial files are created, you can experiment in each of the apps to see how interchangeable they actually are.
+This project is an example of current framework cli-build processes. Once the initial files are created, you can experiment in each of the apps to see how interchangeable they actually are.
 
 ## instructions
 
-Each framework has its own installation and launch scripts. It is recommended that you use yarn for package management and running scripts. If the build process is not successful,
+Each framework has its own installation and launch scripts. It is recommended that you use yarn for package management and running scripts. 
 
 ```
 git clone git@github.com:KevinEverywhere/simple-init-react-angular-preact-vue.git
