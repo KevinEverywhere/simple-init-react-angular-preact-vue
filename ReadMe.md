@@ -68,7 +68,7 @@ This truly is meant as nothing more than a way to quickly see the state of curre
 
 This repo uses the initialization scripts described in the [preact-cli][preact-cli], for preact, [create-react-app][create-react-app] for react, [angular-cli][angular-cli], for angular, and [vue-cli][vue-cli] for vue to create base applications. For more information, please use the links below to discover best practices and state of the moment examples and documentation.
 
-[What's new in Create React App][whatsnew]
+[react][whatsnew]
 
 [angular][angular]
 
