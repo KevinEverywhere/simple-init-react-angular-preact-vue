@@ -42,6 +42,19 @@ in the my-angular-app directory. When you run ng serve, it will launch the app i
 ```
 yarn run startAngular
 ```
+One thing to notice for the angular-cli are the following two scripts in package.json:
+
+```
+"namePkgReturn": "mv package.json replacement.package.json && mv temp.package.json package.json",
+"namePkgTemp": "mv package.json temp.package.json && mv replacement.package.json package.json",
+
+```
+These are executed by the firstRunAngular script, and these are used to work around the limitation of having the angular-cli library included as a dependency. If you notice the firstRunAngular script, it first renames package.json and uses replacement.package.json which lists the angular-cli library as a peerDependency. After ng new has created the new app, it returns the peerDependencies to regular by renaming temp.package.json to package.json.
+
+firstRunAngular:
+```
+yarn run namePkgTemp && ng new my-angular-app && yarn run namePkgReturn
+```
 
 ### preact
 
