@@ -4,7 +4,7 @@ This project is an example of current framework cli-build processes. Once the in
 
 ## instructions
 
-Each framework has its own installation and launch scripts. It is recommended that you use yarn for package management and running scripts. 
+Each framework has its own installation and launch scripts. It is recommended that you use yarn for package management and running scripts.
 
 ```
 git clone git@github.com:KevinEverywhere/simple-init-react-angular-preact-vue.git
@@ -20,7 +20,7 @@ Ensure that you have previously installed yarn and then run this line of code.
 ```
 yarn run startAll
 ```
-The most typical errors when they occur come from already having ports 3000, 8080, 6789 and 4200 already being used; and yarn not being installed. If you do not have yarn installed, run the following line of code.
+The most typical errors when they occur come from ports 3000, 8080, 6789 and 4200 already being used; and yarn not being installed. If you do not have yarn installed, run the following line of code.
 
 ```
 npm install -g yarn
