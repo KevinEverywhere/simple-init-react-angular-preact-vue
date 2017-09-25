@@ -62,11 +62,11 @@ yarn run startVue
 
 ## summary
 
-This truly is meant as nothing more than a way to quickly see the state of react and preact development the first day of autumn, 2017. This should save some time for those wanting to have a quick view of how the two look under the hood.
+This truly is meant as nothing more than a way to quickly see the state of current CLI framework development in September 2017. This should save some time for those wanting to have a quick view of how they compare and look under the hood.
 
 ## reference
 
-This repo uses the initialization scripts described in the [preact-cli][preact-cli], for preact, [create-react-app][create-react-app] for react, [angular-cli][angular-cli], for angular, and [vue-cli][vue-cli] for vue to create a base applications. For more information, please use the links below to discover best practices and state of the moment examples and documentation.
+This repo uses the initialization scripts described in the [preact-cli][preact-cli], for preact, [create-react-app][create-react-app] for react, [angular-cli][angular-cli], for angular, and [vue-cli][vue-cli] for vue to create base applications. For more information, please use the links below to discover best practices and state of the moment examples and documentation.
 
 [What's new in Create React App][whatsnew]
 
@@ -81,7 +81,7 @@ This repo uses the initialization scripts described in the [preact-cli][preact-c
 [whatsnew]: https://facebook.github.io/react/blog/2017/05/18/whats-new-in-create-react-app.html
 [create-react-app]: https://github.com/facebookincubator/create-react-app
 
-[angular][https://github.com/angular/angular]
+[angular]: https://github.com/angular/angular
 [angular-cli]: https://github.com/angular/angular-cli
 
 [preact]: https://preactjs.com/
