@@ -12,15 +12,15 @@ cd simple-init-react-angular-preact-vue
 npm install
 ```
 
-### Run All Four
+### Run React, Angular and Preact at the same time
 
-Running the startAll script will execute startReact, startPreact, startAngular, and startVue. Please look to the individual script to see cli specifics.
+Running the startAll script will execute startReact, startPreact, and startAngular. Please look to the individual script to see cli specifics. Vue required interactive information to begin. Please see below for starting the Vue application.
 
 Ensure that you have previously installed yarn and then run this line of code.
 ```
 yarn run startAll
 ```
-The most typical errors when they occur come from ports 3000, 8080, 6789 and 4200 already being used; and yarn not being installed. If you do not have yarn installed, run the following line of code.
+The most typical errors when they occur come from ports 3000, 6789 and 4200 already being used; and yarn not being installed. If you do not have yarn installed, run the following line of code.
 
 ```
 npm install -g yarn
