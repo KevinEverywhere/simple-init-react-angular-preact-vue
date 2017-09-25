@@ -1,6 +1,6 @@
 # simple-init-react-angular-preact-vue
 
-This project is an example of current framework cli-build processes. Once the initial files are created, you can experiment in each of the apps to see how interchangeable they actually are.
+This project is an example of current framework cli-build processes. Once the initial files are created, you can experiment in each of the apps in their own child directory.
 
 ## instructions
 
